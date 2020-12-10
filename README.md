@@ -1,6 +1,16 @@
+# webrh rollup proof of concept
+
 Example of using rollup to generate a bundle of specific Patternfly Elements.
 
-Steps:
+# Quick start for this example
+
+```
+npm install
+npm run build
+npm run serve
+```
+
+# Migration steps
 
  1. in webrh, npm install the desired components (already done, I'm pretty sure!)
  1. npm install `rollup` and `@rollup/plugin-node-resolve`

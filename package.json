@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "serve": "serve"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^11.0.0",
-    "rollup": "^2.34.2"
+    "rollup": "^2.34.2",
+    "serve": "^11.3.2"
   }
 }
