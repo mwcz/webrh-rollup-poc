@@ -1,0 +1,24 @@
+{
+  "name": "webrh-rollup-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@patternfly/pfe-accordion": "^1.0.0",
+    "@patternfly/pfe-card": "^1.0.0",
+    "@patternfly/pfe-content-set": "^1.0.0",
+    "@patternfly/pfe-icon": "^1.0.0",
+    "@patternfly/pfe-tabs": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.34.2"
+  }
+}
